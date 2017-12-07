@@ -1,6 +1,7 @@
 body {
     background: #333;
-    font-family: 'PT Sans', sans-serif;    
+    font-family: 'PT Sans', sans-serif; 
+    color: #333;   
 }
 header {
     background-color: white;
@@ -13,11 +14,10 @@ header {
     background: greenyellow;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 ul {
-    margin-left: 32%;
+    margin-left: 31%;
     float: left;
     margin-top: 0%;
     display: flex;
@@ -28,9 +28,9 @@ ul {
 .contact {
     /* margin-right: 50px; */
     margin-left: 0px;
-    display: inline;
+    /* display: inline; */
     height: 100px;
-    width: 75px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +42,9 @@ ul {
 .portfolio {
     /* margin-right: 50px; */
     margin-left: 0px;
-    display: inline;
+    /* display: inline; */
     height: 100px;
-    width: 75px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +56,10 @@ ul {
 .about {
     /* margin-right: 50px; */
     margin-left: 0px;
-    display: inline;
+    /* display: inline; */
     background: hotpink;  
     height: 100px;   
-    width: 75px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -68,7 +68,7 @@ ul {
 #article {
     margin-left: 10%;
     margin-top: 2%;
-    margin-right: 2%;
+    margin-right: 2.5%;
     margin-bottom: 150px;
     width: 40%;
     clear: both;
@@ -113,15 +113,30 @@ aside {
     border-color: gray;
     background: white;
 }
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .github {
-    display: inline;
-    size: 10%;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 .linkedin {
-    display: inline;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .twitter {
-    display: inline;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 footer {
     height: 100px;
