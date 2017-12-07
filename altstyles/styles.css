@@ -1,8 +1,7 @@
 body {
-    background: white;
-    background-image: url(images/navy_blue.png);
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #444;
+    background: #333;
+    font-family: 'PT Sans', sans-serif; 
+    color: #333;   
 }
 header {
     background-color: white;
@@ -14,14 +13,11 @@ header {
     margin-top: 0%;
     background: greenyellow;
     height: 100%;
-    font-size: 200%;
     display: flex;
     align-items: center;
-    font-family: 'Georgia', Times, 'Times New Roman', 'serif';
-    color:#222;
-    margin-right: 20%;
 }
 ul {
+    margin-left: 31%;
     float: left;
     margin-top: 0%;
     display: flex;
@@ -84,7 +80,7 @@ ul {
     margin-left: 10%;
     margin-top: 2%;
     margin-right: 2.5%;
-    margin-bottom: 75px;
+    margin-bottom: 150px;
     width: 40%;
     clear: both;
     float: left;
@@ -104,8 +100,6 @@ ul {
     border-bottom: gray;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    font-family: 'Georgia', Times, 'Times New Roman', 'serif';
-    color:#222;
 }
 
 img {
@@ -129,8 +123,6 @@ aside {
     border-style: solid;
     border-color: gray;
     background: white;
-    font-family: 'Georgia', Times, 'Times New Roman', 'serif';
-    color:#222;
 }
 
 .logos {
